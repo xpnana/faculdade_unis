@@ -14,7 +14,7 @@ resto_anos = idade % 365
 calculo_meses = resto_anos // 30
 resto_meses = resto_anos % 30
 
-# Melhoria na formatação do resultado
+
 txt_ano = "ano" if calculo_anos == 1 else "anos"
 txt_mes = "mês" if calculo_meses == 1 else "meses"
 txt_dia = "dia" if resto_meses == 1 else "dias"
